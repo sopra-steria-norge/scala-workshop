@@ -12,7 +12,7 @@ class AboutLiterals extends KoanSuite {
   koan("double literals") {
     val f = 2.0
 
-    f.isInstanceOf[___] should be(true)
+    f.isInstanceOf[Double] should be(__)
   }
 
   koan("string literals") {

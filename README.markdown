@@ -9,7 +9,7 @@ Inspired by the Ruby koans, the Scala koans will guide you on your journey to le
 
 ## How to start your journey
 
-Run `sbt` or `sbt.bat` depending on your platform. Then in the shell run 'test-only org.scalakoans.Koans' and follow the steps.
+Run `sbt` or `sbt.bat` depending on your platform. Then in the shell run `test-only org.scalakoans.Koans` and follow the steps.
 
 Note: The `~koans` command used in the original version is not compatible with SBT 0.11 and therefore not configured at the moment.
 

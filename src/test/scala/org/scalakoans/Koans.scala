@@ -5,10 +5,11 @@ import support.Master
 
 class Koans extends Suite {
   override def nestedSuites = List(
-	new AboutWeb,
     new AboutAsserts,
     new AboutValAndVar,
     new AboutLiterals,
+    new AboutRegularExpressions,
+    new AboutWeb,
     new AboutTuples,
     new AboutMethods,
     new AboutClasses,

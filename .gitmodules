@@ -1,0 +1,3 @@
+[submodule "exercises/scala-koans"]
+	path = exercises/scala-koans
+	url = git://github.com/steria/scala-koans.git

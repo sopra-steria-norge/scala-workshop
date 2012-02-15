@@ -1,32 +1,33 @@
-Steria - GitHub
----------------
+This is the files for the Steria Scala hands-on workshop.
 
-https://github.com/steria
+It is based on the [Scala Koans](https://github.com/rubbish/scala-koans) by Luke Amdor
+and [Extreme Startup](https://github.com/rchatley/extreme_startup) by Richard Chatley
+and Matt Wynne.
 
-Innhold
-=======
+How to get started:
+1. Install git from http://git-scm.com/download
+2. git clone http://github.com/steria/scala-workshop.git
+3. git submodule init
+4. Install [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html)
+5. Install a text editor (we recommend [Notepad++](http://notepad-plus-plus.org/download/v5.9.8.html))
+   # Copy [userDefinedLang.xml]() to %APPDATA%\Notepad++
+6. Have a Scala syntax reference ready (we recommend [this one](http://www.scala-lang.org/sites/default/files/pdfs/Scala%20Quick%20Reference.pdf))
 
-Java 6
--------
+Running koans
+-------------
+1. `cd exercises/scala-koans`
+2. `koans`
 
-http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html
+Playing Extreme Startup
+-----------------------
+1. `cd exercises/extreme_startup_server/scala/scalatra_for_dummies`
+2. `sbt ~test`
+3. `sbt run`
 
-Notepad++
-----------
-
-http://notepad-plus-plus.org/download/v5.9.8.html
-
-### Notapad++ Scala Syntax Highlighting
-
-1. Kopier "userDefineLang.xml" til %APPDATA%\Notepad++
-2. I Notepad++: Language -> User-Defined
-
-Scala Koans - oppgavesett
---------------------------
-
-Unzip prosjektet og kjør start i et kommandovindu:
-1. sbt
-2. ~test-only org.scalakoans.Koans
-	
-Extreme Startup Servers - inkludert Scala
-------------------------------------------
+What's here?
+============
+The installation disk already contains:
+* [Java JDK 1.6](http://www.oracle.com/technetwork/java/javase/downloads/jdk-6u31-download-1501634.html)
+* [Notepad++](http://notepad-plus-plus.org/download/v5.9.8.html)
+* Notepad++ Scala Syntax from Scala 
+* [Scala Syntax Reference](http://www.scala-lang.org/sites/default/files/pdfs/Scala%20Quick%20Reference.pdf)

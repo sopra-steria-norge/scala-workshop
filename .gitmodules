@@ -1,3 +1,6 @@
 [submodule "exercises/scala-koans"]
 	path = exercises/scala-koans
 	url = git://github.com/steria/scala-koans.git
+[submodule "exercises/extreme_startup_server"]
+	path = exercises/extreme_startup_server
+	url = http://github.com/steria/extreme_startup_servers.git

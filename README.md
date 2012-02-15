@@ -1,5 +1,7 @@
 This is the files for the Steria Scala hands-on workshop.
 
+Discover the Power of Sharing with Steria at [Youtube](http://www.youtube.com/watch?v=XUlcKR25PAQ&feature=related)
+
 It is based on the [Scala Koans](https://github.com/rubbish/scala-koans) by Luke Amdor
 and [Extreme Startup](https://github.com/rchatley/extreme_startup) by Richard Chatley
 and Matt Wynne.
@@ -23,6 +25,12 @@ Playing Extreme Startup
 1. `cd exercises/extreme_startup_server/scala/scalatra_for_dummies`
 2. `sbt ~test`
 3. `sbt run`
+
+Doing the Yahtzee kata
+----------------------
+1. `cd exercises\scala-yahtzee-kata`
+2. `sbt ~test`
+3. Place tests under src/test/scala and production code under `src/main/scala`
 
 What's here?
 ============

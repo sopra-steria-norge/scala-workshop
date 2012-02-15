@@ -4,3 +4,6 @@
 [submodule "exercises/extreme_startup_server"]
 	path = exercises/extreme_startup_server
 	url = http://github.com/steria/extreme_startup_servers.git
+[submodule "exercises/scala-yahtzee-kata"]
+	path = exercises/scala-yahtzee-kata
+	url = git://github.com/steria/scala-yahtzee-kata.git
